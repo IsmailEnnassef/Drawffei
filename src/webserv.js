@@ -20,7 +20,7 @@ const app = express().use('*',cors())
 const port = process.env.PORT 
 
 
-app.use(express.static(publicDirectoryPath))
+app.use('/',express.static(publicDirectoryPath))
 app.use(lobbyRouter)
 app.use(userRouter)
 app.use(fileRouter)

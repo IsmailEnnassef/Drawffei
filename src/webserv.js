@@ -1,7 +1,7 @@
 const path = require('path')    
 const cors = require('cors')
 const express = require('express')
-require('./Data/mongoose')
+require('./data/mongoose')
 const lobbyRouter =require('./routers/lobbyRouter.js')
 const userRouter=require('./routers/userRouter.js')
 const socketio=require('socket.io')

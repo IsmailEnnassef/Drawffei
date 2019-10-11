@@ -1,0 +1,109 @@
+body {
+    background-image:url(backgroundimage.jpg);
+    color:black
+  }
+
+#login{
+   border-style:groove;
+    width:20%;
+    height:40%;
+    border-color:#718093;
+    background-color: #273c75;
+    color:white;
+}
+#signin{
+  border-style:groove;
+    width:20%;
+    height:40%;
+    border-color:#718093;
+    background-color: #273c75;
+}
+#loginEmail{
+  width:80%;
+}
+#loginPassword{
+  width:80%;
+}
+.eraser-button{
+
+  background:url('eraser.svg');
+  padding-left: 22px
+}
+.lobby{
+  color:white;
+  background-color:#273c75;
+  width:40%;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top:5%;
+  border-style:groove;
+  border-color:#718093
+}
+
+.creategame{
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.roombuttons{width:80%;
+margin-left:10%;
+margin-right:10%}
+
+.adminDestroy{
+  margin-left:5%;
+}
+
+.userButtons{
+  width:50%;
+  margin-left:30%;
+  margin-right:30%;
+}
+
+#myCanvas{
+  background-color: white;
+  width:70%;
+  height:450px;
+}
+#chat-part{
+  height:450px;
+  overflow: auto
+}
+.chatbox{
+  height:400px;
+  overflow:'auto  ';
+  color:black;
+  background-color:#dcdde1;
+  border-style:groove;
+  width:30%;
+  border-color:#718093;
+}
+.chatsender{
+  width:100%;
+  ;
+}
+
+#width-3{
+  height: 18px;
+  width: 18px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#width-10{
+  height: 28px;
+  width: 28px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#width-15{
+  height: 36px;
+  width: 36px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+

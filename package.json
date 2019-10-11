@@ -1,0 +1,27 @@
+{
+  "name": "dty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/webserv.js",
+    "start": "node ./src/webserv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.9",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.15.1"
+  }
+}

@@ -1,7 +1,7 @@
 const path = require('path')    
 const cors = require('cors')
 const express = require('express')
-require('./Data/mongoose')
+require('./data/mongoose')
 const lobbyRouter =require('./routers/lobbyRouter.js')
 const userRouter=require('./routers/userRouter.js')
 const socketio=require('socket.io')
@@ -13,9 +13,9 @@ http.createServer()
 
 
 
-const publicDirectoryPath = path.join(__dirname,'./Public')    
-const wordListPath = path.join(__dirname,'./Data/') 
-
+const publicDirectoryPath = path.join(__dirname,'./public')    
+const wordListPath = path.join(__dirname,'./data/') 
+console.log(publicDirectoryPath)
 const app = express().use('*',cors())
 const port = process.env.PORT 
 

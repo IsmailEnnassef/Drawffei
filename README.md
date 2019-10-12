@@ -12,7 +12,7 @@ Description technique: <br />
     La base de donnée est gérée par MongoDb, et la relation entre serveur-BDD est faite grâce à mongoose qui simplifie la création de modèle. La mise en page est faite grâce à à la fois du css pure et du bootstrap quand celui-ci ne permet pas une liberté suffisante. Le login se fait grâce à JWT qui est stocké localement chez le client à travers des cookies. Enfin , esLint permet de trouver les eventuels bugs et code à optimiser.<br />
 Procédure d'installation:<br />
     La BDD est déjà en ligne sur un cluster mongodb. <br /> Il suffit donc pour lancer le serveur de :<br />taper dans la commande à la racine du projet 1- npm install package.json 2- la commande npm run dev. Puisque le front est en MPA, il ne nécessite pas d'être lancé. L'url pour pouvoir se connecter à mongoDB grâce à Compass est présente dans le ficher \config\dev.env  si l'on veut pouvoir la visualiser. Il n'y a pas besoin de précharger des données puisque le  cluster est en ligne de façon permanente. <br />
-Certains compte nécessaire:<br />
+Certains comptes nécessaires:<br />
     Si l'on veut tester un compte Admin, voici les identifiants : <br />
         Nom de compte: Admin@gmail.com  ( le systeme est sensible au majuscule)<br />
         MDP: 123456<br />

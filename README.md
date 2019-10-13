@@ -20,11 +20,13 @@ Le siteweb est composé d'une backend utilisant express pour lancer le serveur, 
 
  *  La BDD est déjà en ligne sur un cluster mongodb. <br /> Il suffit donc pour lancer le serveur de :<br />taper dans la commande à la racine du projet 1- npm install package.json 2- la commande npm run dev. 
 
-npm install package.json dans la racine du projet
+npm install package.json dans la racine du projet ainsi que nodemon
 ```
 npm install package.json
 ```
-
+```
+npm install nodemon
+```
 npm run dev
 
 ```

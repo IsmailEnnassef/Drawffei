@@ -1,17 +1,17 @@
-# Project Title
+# Drawffei
 
-Website Pictionary By ENNASSEF Ismail: Drawff est un site qui permet de jouer , en ligne et avec des amis , à un jeu Pictionary.Il permet de créer un compte et une salle de jeu, puis des amis peuvent rejoindre et dessiner sur un canvas. La liste de mots est modifiable seulement par l'administrateur, et le mot est choisi au hasard.
+Drawff est un site qui permet de jouer , en ligne et avec des amis , à un jeu Pictionary.Il permet de créer un compte et une salle de jeu, puis des amis peuvent rejoindre et dessiner sur un canvas. La liste de mots est modifiable seulement par l'administrateur, et le mot est choisi au hasard.
 
 
 ## Getting Started
 
 Ces instructions permettent de lancer en local le siteweb.
 
-### Prerequisites
+### Prerequis
 
 node 10.16.1, git, MongoDB 4.2
 
-### Technical description
+### Description technique
 Le siteweb est composé d'une backend utilisant express pour lancer le serveur, socketio pour la communication en temps réel avec le client et http pour la relation serveur-socket. La frontend est geré grâce à React, mais en MPA. Ainsi react sert à load les components sur des pages html, au lieu d'avoir un unique fichier index.js qui load tout les components à tour de rôle. La compilation de React est faite grâce à Babel.<br />
     La liste de mot nécessaire au jeu est présente au niveau du serveur dans un fichier apart, nous utilisons donc fn aussi pour manipuler (ajouter,supprimer,lire) le fichier en question.
     La base de donnée est gérée par MongoDb, et la relation entre serveur-BDD est faite grâce à mongoose qui simplifie la création de modèle. La mise en page est faite grâce à à la fois du css pure et du bootstrap quand celui-ci ne permet pas une liberté suffisante. Le login se fait grâce à JWT qui est stocké localement chez le client à travers des cookies. Enfin , esLint permet de trouver les eventuels bugs et code à optimiser.<br />
@@ -45,23 +45,21 @@ Certains comptes nécessaires:<br />
         *  Nom de compte: Lambda@gmail.com <br />
         *  MDP: 123456 <br />
 
-##  Functionalities
-
-**Liste des fonctionnalités**: <br />
-    *  Créer un compte <br />
-    *  Se connecter <br /> 
-    *  Se déconnecter <br /> 
-    *  Créer une salle de jeu <br />
-    *  Visualiser toutes les salles de jeu <br />
-    *  Si Admin, supprimer n'importe quelle salle <br />
-    *  Si utilisateur lambda, voir l'historique des salles crées <br />
-    *  Rejoindre une salle <br />
-    *  Dessiner sur le canvas , choisir la couleur et la taille du trait , effacer <br />
-    *  Parler dans le chat ( message Welcome , autoscroll,envoyer des messages) <br /> 
-    *  Système de jeu mise en place ( +1 si le mot est trouvé, mise à jour du score à la fin de chaque timer) <br />
-    *  Fonctionnalités additionnelles: <br />
-        *  Pour éviter la triche, une personne ne peut plus  participer au chat après avoir trouvé le bon mot, jusqu'au prochain mot à trouver. <br />
-        *  Seul le dessinateur peut voir les outils de dessins <br />
+##  Functionalités
+   *   Créer un compte <br />
+   *  Se connecter <br /> 
+   *  Se déconnecter <br /> 
+   *  Créer une salle de jeu <br />
+   *  Visualiser toutes les salles de jeu <br />
+   *  Si Admin, supprimer n'importe quelle salle <br />
+   *  Si utilisateur lambda, voir l'historique des salles crées <br />
+   *  Rejoindre une salle <br />
+   *  Dessiner sur le canvas , choisir la couleur et la taille du trait , effacer <br />
+   *  Parler dans le chat ( message Welcome , autoscroll,envoyer des messages) <br /> 
+   *  Système de jeu mise en place ( +1 si le mot est trouvé, mise à jour du score à la fin de chaque timer) <br />
+   *  Fonctionnalités additionnelles: <br />
+       *  Pour éviter la triche, une personne ne peut plus  participer au chat après avoir trouvé le bon mot, jusqu'au prochain mot à trouver. <br />
+       *  Seul le dessinateur peut voir les outils de dessins <br />
 
 
 

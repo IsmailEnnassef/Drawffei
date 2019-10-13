@@ -62,6 +62,7 @@ Certains comptes nécessaires:<br />
    *  Fonctionnalités additionnelles: <br />
        *  Pour éviter la triche, une personne ne peut plus  participer au chat après avoir trouvé le bon mot, jusqu'au prochain mot à trouver. <br />
        *  Seul le dessinateur peut voir les outils de dessins <br />
+       * Tout le monde sauf le dessinateur peut parler dans le chat - le dessinateur ne peut pas aider à trouver le mot de cette manière -
 
 
 

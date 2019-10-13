@@ -9,7 +9,7 @@ Ces instructions permettent de lancer en local le siteweb.
 
 ### Prerequis
 
-node 10.16.1, git, MongoDB 4.2
+node 10.16.1, git, MongoDB 4.2,nodemon
 
 ### Description technique
 Le siteweb est composé d'une backend utilisant express pour lancer le serveur, socketio pour la communication en temps réel avec le client et http pour la relation serveur-socket. La frontend est geré grâce à React, mais en MPA. Ainsi react sert à load les components sur des pages html, au lieu d'avoir un unique fichier index.js qui load tout les components à tour de rôle. La compilation de React est faite grâce à Babel.<br />
